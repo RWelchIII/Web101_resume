@@ -1,13 +1,13 @@
 body {
     height: 850px;
     width: 1500px;
-    color: blueviolet;
+    color: rgb(0, 238, 247);
 }
 header {
-    background-color: plum;
+    background-color: black;
     margin-left: 20px;
     padding-left: 30px;
-    color: blueviolet;
+    border: 10px dotted rgb(0, 238, 247);
 }
 .resume {
     display: grid;
@@ -30,14 +30,17 @@ img {
     grid-template-rows: auto;
     margin-left: 20px;
     padding-left: 30px;
-    background-color: plum;
+    background-color:black;
     line-height: 3;
+    
 }
 .info {
     text-align: center;
-    background-color: tomato;
+    margin-top: 10px;
+    background-color: plum;
     padding-right: 100px;
     line-height: 1.5;
+    border: 10px outset rgb(0, 238, 247);
 }
 .info p {
     padding-top: 20px;
@@ -51,7 +54,7 @@ h2 {
     padding-left: 5px;
     font-size: 40px;
     background-color: violet;
-    border-radius: 70%;   
+    border-radius: 70%;
 }
 .contact p {
     padding-left: 100px;
