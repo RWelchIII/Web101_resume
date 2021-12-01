@@ -1,11 +1,13 @@
 body {
     height: 850px;
     width: 1500px;
+    color: blueviolet;
 }
 header {
-    background-color: thistle;
+    background-color: plum;
     margin-left: 20px;
     padding-left: 30px;
+    color: blueviolet;
 }
 .resume {
     display: grid;
@@ -28,16 +30,13 @@ img {
     grid-template-rows: auto;
     margin-left: 20px;
     padding-left: 30px;
-    background-color: thistle;
+    background-color: plum;
     line-height: 3;
 }
 .info {
     text-align: center;
     background-color: tomato;
-    padding-top: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 20px;
+    padding-right: 100px;
     line-height: 1.5;
 }
 .info p {
@@ -60,7 +59,8 @@ h2 {
     font-size: 20px;
 }
 
-h3{
+.info h3 {
+    margin-left: 110px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
